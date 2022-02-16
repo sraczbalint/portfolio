@@ -5,7 +5,6 @@ import { createStructuredSelector } from 'reselect';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.components';
 import { ReactComponent as Logo } from './crown.svg';
-import { auth } from '../../firebase/firebase.utils';
 import { selectCartHidden } from '../../redux/cart/cart.selector';
 import { selectCurrentUser } from '../../redux/user/user.selector';
 import { HeaderContainer, LogoContainer, OptionsContainer, OptionDiv, OptionLink } from './header.style';
